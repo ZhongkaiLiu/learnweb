@@ -107,3 +107,15 @@ types:
   - `clear: left`
   - `clear: right`
 - **ONLY use float to wrap text around an element (e.g. image), do NOT use float to position elements**
+
+
+## z-index
+- stacking order on z-axis by default
+  - the HTML element below is on top
+  - the child element is on top of parent element
+  - positioned element (i.e. position is not static) is on top of static positioned element
+  - CSS z-index property:
+    - by default `z-index: 0`
+    - larger `z-index` is on top, e.g. `z-index: 1`
+    - can be negative, `z-index: -1`
+    - **Noted that only when two elements are both positioned, the order will be determined by comparing z-index values**
