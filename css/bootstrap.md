@@ -33,7 +33,7 @@
 ### Button
 - example:
   - dark color, large size
-  - `<button type="button" class="btn btn-dark btn-lg"> click me </button>`
+  - `<button type="button" class="btn btn-dark btn-lg btn-block"> click me </button>`
 
 ### Nav-bar
 - classes:
@@ -43,4 +43,11 @@
   - `navbar-brand`
   - collapse contents: `collapse navbar-collapse`
   - collapse button: `navbar-toggler`
+
+### Carousel
+- A slideshow component for cycling through elements—images or slides of text
+- classes:
+  - `carousel`
+  - etc.
+
 
