@@ -119,3 +119,19 @@ types:
     - larger `z-index` is on top, e.g. `z-index: 1`
     - can be negative, `z-index: -1`
     - **Noted that only when two elements are both positioned, the order will be determined by comparing z-index values**
+
+## Media Query
+- format: `@media <media types> <media features> { CSS Styles }`
+  - media types (optional)
+    - all
+    - print (printer)
+    - screen
+    - speech (screen reader)
+  - conditions:
+    - `min-width: 500px` (when width is larger than or equal to 500px)
+    - `max-width: 1000px` (when width is less than or equal to 1000px)
+  - logical operators:
+    - and
+    - not
+    - only
+
