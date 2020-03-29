@@ -1,4 +1,12 @@
 # Notes for CSS
+## Selectors
+- multiple selectors (separated by comma)
+  - `h1, h2, h3 {...}` select all h1, h2 and h3
+- hierarchical selectors (separated by space)
+  - `.class1 .class2` select `class2` that is inside `class1`
+- combined selectors (no spaces between selectors)
+  - `.class1.class2` select elements that have both `class1` and `class2`
+
 ## Box Model
 - Content
 - Border
