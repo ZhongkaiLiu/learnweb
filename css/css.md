@@ -135,3 +135,8 @@ types:
     - not
     - only
 
+## Code Refactoring
+    - Readability
+    - Modularity
+    - Efficiency
+    - Length
