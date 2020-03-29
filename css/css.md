@@ -136,7 +136,7 @@ types:
     - only
 
 ## Code Refactoring
-    - Readability
-    - Modularity
-    - Efficiency
-    - Length
+- Readability
+- Modularity
+- Efficiency
+- Length
