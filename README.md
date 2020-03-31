@@ -6,4 +6,5 @@ Notes for Learning Web
 - [Bootstrap Notes](css/bootstrap.md)
 
 ## JavaScript
-- [JavaScript](js.md)
+- [JavaScript](js/js.md)
+- [DOM](js/dom.md)
