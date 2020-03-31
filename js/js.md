@@ -27,6 +27,42 @@
   - `num+=1`
 
 ## Function
-- vanilla version
-  - define function
+- define function
     - `function functionName(arguments) {...}`
+- some functions:
+  - `console.log()`
+  - `alert()`
+  - `prompt()`
+
+## Operators
+
+### Comparators:
+- Equal
+  - `===` also check data type equality
+  - `==`
+- Not equal
+  - `!==`
+  - `!=`
+- greater, less than
+  - `>`
+  - `<`
+  - `>=`
+  - `<=`
+
+### Logical operators:
+- AND: `&&`
+- OR: `||`
+- NOT: `!`
+
+## Array
+- `array = [...]`
+- `array.push()`
+- `array.pop()`
+
+## Control Flow
+- if statement
+  - `if () {} else if () {} else {}`
+- while loop
+  - `while () {}`
+- for loop 
+  - `for (var i = 0; i < 10; i++) {}`
