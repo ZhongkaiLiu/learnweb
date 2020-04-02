@@ -104,3 +104,12 @@ JS view the HTML file in a hirachical way
   - `document.querySelector("a").getAttribute("href");`
 - set the value of attribute:
   - `document.querySelector("a").setAttribute("href", "https://www.google.com");`
+
+
+## Event listener
+- add event listener to a HTML element
+  - `element.addEventListener(<event type>, <handler function>)`
+  - `document.querySelector("button").addEventListener("click", eventHandler)`
+- can also add event listener to the whole document
+- the anonymous function can also take the **event** as argument input
+- `document.addEventListener("keydown", function(event) {...} )`
